@@ -49,11 +49,13 @@ header{
     color: var(--color-primary);
     height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 nav{
     height: 100%;
-    position: fixed;
-    z-index: 1000;
 }
 
 .logo-box{
@@ -65,6 +67,7 @@ nav{
 /* main */
 main{
     display: block;
+    margin-top: 140px;
 }
 .macro-box{
     margin-top: 40px;
