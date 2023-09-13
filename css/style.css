@@ -48,9 +48,12 @@ header{
     background-color: var(--color-orange);
     color: var(--color-primary);
     height: 70px;
+    width: 100%;
 }
 nav{
     height: 100%;
+    position: fixed;
+    z-index: 1000;
 }
 
 .logo-box{
@@ -60,6 +63,9 @@ nav{
 
 
 /* main */
+main{
+    display: block;
+}
 .macro-box{
     margin-top: 40px;
     align-content: space-around;
@@ -119,5 +125,19 @@ span{
     color: var(--color-red);
     cursor: pointer;
 }
+.box:hover img.secondary{
+    display: inline-block;
+}
+.box:hover img.primary{
+    display: none;
+}
+.secondary{
+    display: none;
+}
+
 
 /* footer */
+footer{
+    background-color: var(--color-secondary);
+    color: var(--color-primary );
+}
