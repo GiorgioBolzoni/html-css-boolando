@@ -10,6 +10,10 @@
 	--color-red: #ff2a2a;
 	--color-green: #008000;
 }
+img{
+    max-width:100%;
+    position: relative;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,23 +51,52 @@ header{
 nav{
     height: 100%;
 }
-.box{
-    width: calc(100% / 3);
-    background-color:rgb(186, 206, 224); /*da togliere*/
-    
+
+.logo-box{
+    max-width: 100px;
 }
-.logo-img{
-    display: block;
-    
-}
-/* .logo-box{
-    height: 50px;
-    object-fit: cover;
-} */
 
 
 
 /* main */
-
+.macro-box{
+    margin-top: 40px;
+    align-content: space-around;
+    align-items: flex-start
+}
+.box{
+    max-width: 33%;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+}
+.text-img{
+    padding-top: 5px;
+}
+.small-font{
+    font-size: 0.7em;
+}
+.price{
+    color: var(--color-red);
+}
+span{
+    color: black;
+    text-decoration:line-through;
+}
+.colored-boxes{
+    position: absolute;
+    max-width: 150px;
+    margin-bottom: 300px;
+}
+.red-box{
+    background-color: var(--color-red);
+    color: var(--color-primary);
+    margin-right: 3px;
+    padding: 4px 6px;
+}
+.green-box{
+    background-color: var(--color-green);
+    color: var(--color-primary);
+    padding: 4px 6px;
+}
 
 /* footer */
