@@ -10,8 +10,21 @@
 	--color-red: #ff2a2a;
 	--color-green: #008000;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .debug{
     border: 1px solid rgb(0, 0, 0);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+a{
+    display: block;
+    padding: 10px 12px 10px 0px;
+    text-decoration: none;
 }
 /* flexbox */
 .d-flex{
@@ -24,3 +37,25 @@
 .f-center{
     justify-content: center;
 }
+/* header */
+.box{
+    width: calc(100% / 3);
+    background-color:rgb(186, 206, 224); /*da togliere*/
+    
+}
+.logo-img{
+    display: block;
+    
+}
+.logo-box{
+    
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* main */
+
+
+/* footer */
