@@ -59,7 +59,7 @@ nav{
 }
 
 .logo-box{
-    max-width: 100px;
+    max-width: 120px;
 }
 
 
@@ -143,4 +143,23 @@ span{
 footer{
     background-color: var(--color-secondary);
     color: var(--color-primary );
+    padding: 30px 0;
+}
+.list-footer{
+    list-style: none;
+    font-size: 0.7em;
+}
+li{
+    margin-right: 8px;
+}
+h5{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.social-text-foot{
+    font-size: 0.8em;
+}
+.icones{
+    font-size: 2em;
+    margin-right: -5px;
 }
