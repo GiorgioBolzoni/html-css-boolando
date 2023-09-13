@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-primary: #ffffff;
+	--color-secondary: #1a1a1a;
+	--color-orange: #ff6900;
+	--color-red: #ff2a2a;
+	--color-green: #008000;
+}
+.debug{
+    border: 1px solid rgb(0, 0, 0);
+}
+/* flexbox */
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.f-center{
+    justify-content: center;
+}
