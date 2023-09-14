@@ -53,6 +53,7 @@ header{
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow: 0 1px 3px #666;
 }
 nav{
     height: 100%;
@@ -61,7 +62,14 @@ nav{
 .logo-box{
     max-width: 120px;
 }
-
+.ext-header{
+    width: 20%;
+    justify-content: flex-start;
+}
+.ext-header{
+    width: 20%;
+    justify-content: flex-end;
+}
 
 
 /* main */
@@ -71,7 +79,7 @@ main{
 }
 .macro-box{
     margin-top: 40px;
-    align-content: space-around;
+    align-content: flex-start;
     align-items: flex-start;
     margin-bottom: 40px;
 }
@@ -130,7 +138,7 @@ span{
     cursor: pointer;
 }
 .box:hover img.secondary{
-    display: inline-block;
+    display: block;
 }
 .box:hover img.primary{
     display: none;
@@ -163,4 +171,7 @@ h5{
 .icones{
     font-size: 2em;
     margin-right: -5px;
+}
+.txt-centered{
+    text-align: center;
 }
